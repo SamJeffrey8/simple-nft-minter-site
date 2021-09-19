@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
+.header {
+  width: 100%;
+  padding: 1.5%;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}
+.header >h1 {
+  font-size: x-large;
+
+}
+
+.display-board {
+  width: 70%;
+  background-color: #ffffff;
+  padding: 2%;
+  text-align: center;
+  border-radius: 10px;
+  transition: all ease 0.4s;
+}
+.display-board:hover{
+  transform: scale(1.05);
+}
+
+.layoutRow{
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+
+.mrgnbtm {
+  margin-top: 15rem;
+}
+.sButton{
+  border-radius: 30px ;
+  color:none;
+  transition: all ease 0.4s;
+
+}
+.sButton:hover{
+  transform: scale(1.2);
+}
+
+.App{
+  background-color: #212121;
+  height:100vh;
+  font-family: 'Lexend Deca', sans-serif;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/image-upload-b568f.appspot.com/o/quGFoTnJ_400x400-removebg-preview.png?alt=media&token=b6fbaeda-20ca-4e4a-a3d6-06e19431002f");
+}
